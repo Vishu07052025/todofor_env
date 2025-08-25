@@ -1,0 +1,22 @@
+name: "Dhondhu Maharaaj"
+
+on: 
+  push:
+    branches: 
+      - 'feature/**'
+      - 'main'
+      - 'hotfix/**'
+
+jobs:
+  DhondhuMaharaj: 
+    name: Dhondhu Maharaj
+    runs-on: my first runner
+    steps:
+    - name: Dhondhu Maharaj Rocks!
+      run: echo Dhondhu Maharaj
+    
+    - name: mayank Rocks!
+      run: echo krishna Maharaj
+
+    - name: vishu Rocks!
+      run: echo Bhole Maharaj
